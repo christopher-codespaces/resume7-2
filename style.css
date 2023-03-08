@@ -1,0 +1,179 @@
+.hero {
+    height: 100vh; /* Set the height of the hero area to the full viewport height */
+    background-image: url('https://images.pexels.com/photos/4584830/pexels-photo-4584830.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Set the background image */
+    background-color: #333; /* Set a backup color */
+    background-repeat: no-repeat; /* Set the background to not repeat */
+    background-position: center; 
+    background-size: 100% auto/* Center the background image */
+}
+
+
+.hero-content {
+    max-width: 960px; /* Set the maximum width of the content area */
+    margin: 0 auto; /* Center the content area horizontally */
+    padding: 50px; /* Add some padding to the content area */
+    text-align: center; /* Center the content text */
+    color: #fff; /* Set the text color to white */
+}
+
+.profile-picture {
+    width: 200px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+
+.name {
+    font-size: 36px; 
+    margin-bottom: 10px; 
+    font-display: oblique;
+}
+
+.intro {
+    font-size: 24px; 
+    line-height: 1.5; 
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+    background-color: tomato;
+    color: white;
+    margin-bottom: 0%; 
+    width: 2500px;
+}
+
+.image {
+    border: 4px solid white;
+    border-radius: 100px;
+    width: "150";
+    height: 200px;
+    position: absolute;
+    margin-bottom: 220px;
+
+}
+.image-text {
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 200px;
+}
+.sub-text {
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.menu {
+    padding-top: 0;
+    color: "white";
+    background-color: black;
+    width: 250px;
+    height:  250px;
+
+
+}
+
+.header-text{
+    height: 75px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.text{
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+.code-text{
+    color: rgb(1, 27, 1);
+    text-decoration: none !important;
+    font-size: 16px;
+}
+.a {
+    text-decoration: none;
+    background-color: white;
+
+
+}
+
+.section-ed {
+display:flex;
+flex-direction: column;
+
+}
+
+.ed {
+    margin-top:40px;
+    margin-bottom: 40px;
+
+}
+
+.exp {
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+}
+.container-exp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 10px;
+}
+.container-ed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 10px;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: peachpuff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.select {
+    width: 250px;
+}
+.textarea{
+    width: 250px;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color:  black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    border-color: #4cf;  
+    width: 250px;
+}
+
+label {
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+
